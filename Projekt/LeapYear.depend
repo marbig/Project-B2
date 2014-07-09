@@ -1,0 +1,97 @@
+# depslib dependency file v1.0
+1404806199 source:/home/student/Desktop/LeapYear/LeapYear.cpp
+	"LeapYear.h"
+
+1404805499 /home/student/Desktop/LeapYear/LeapYear.h
+
+1404806083 source:/home/student/Desktop/LeapYear/LeapYearTest.cpp
+	"UnitTest++.h"
+	"LeapYear.h"
+
+1404804921 source:/home/student/Desktop/LeapYear/main.cpp
+	"UnitTest++.h"
+
+1188366510 /home/student/Desktop/TestPit/src/UnitTest++.h
+	"Config.h"
+	"Test.h"
+	"TestList.h"
+	"TestSuite.h"
+	"TestResults.h"
+	"TestMacros.h"
+	"CheckMacros.h"
+	"TestRunner.h"
+	"TimeConstraint.h"
+
+1225377516 /home/student/Desktop/TestPit/src/Config.h
+
+1225291088 /home/student/Desktop/TestPit/src/Test.h
+	"TestDetails.h"
+
+1174318456 /home/student/Desktop/TestPit/src/TestDetails.h
+
+1180467758 /home/student/Desktop/TestPit/src/TestList.h
+
+1174318456 /home/student/Desktop/TestPit/src/TestSuite.h
+
+1174318456 /home/student/Desktop/TestPit/src/TestResults.h
+
+1225394826 /home/student/Desktop/TestPit/src/TestMacros.h
+	"Config.h"
+	"ExecuteTest.h"
+	"AssertException.h"
+	"TestDetails.h"
+	"MemoryOutStream.h"
+	"Posix/SignalTranslator.h"
+
+1225291088 /home/student/Desktop/TestPit/src/ExecuteTest.h
+	"TestDetails.h"
+	"MemoryOutStream.h"
+	"AssertException.h"
+	"CurrentTest.h"
+	"Posix/SignalTranslator.h"
+
+1174318456 /home/student/Desktop/TestPit/src/MemoryOutStream.h
+	"Config.h"
+	<sstream>
+	<cstddef>
+
+1174318456 /home/student/Desktop/TestPit/src/AssertException.h
+	<exception>
+
+1225291088 /home/student/Desktop/TestPit/src/CurrentTest.h
+
+1224683802 /home/student/Desktop/TestPit/src/Posix/SignalTranslator.h
+	<setjmp.h>
+	<signal.h>
+
+1225291088 /home/student/Desktop/TestPit/src/CheckMacros.h
+	"Checks.h"
+	"AssertException.h"
+	"MemoryOutStream.h"
+	"TestDetails.h"
+	"CurrentTest.h"
+
+1225376862 /home/student/Desktop/TestPit/src/Checks.h
+	"Config.h"
+	"TestResults.h"
+	"MemoryOutStream.h"
+
+1225291088 /home/student/Desktop/TestPit/src/TestRunner.h
+	"Test.h"
+	"TestList.h"
+	"CurrentTest.h"
+
+1225291088 /home/student/Desktop/TestPit/src/TimeConstraint.h
+	"TimeHelpers.h"
+
+1174318456 /home/student/Desktop/TestPit/src/TimeHelpers.h
+	"Config.h"
+	"Posix/TimeHelpers.h"
+	"Win32/TimeHelpers.h"
+
+1174318456 /home/student/Desktop/TestPit/src/Posix/TimeHelpers.h
+	<sys/time.h>
+
+1225377516 /home/student/Desktop/TestPit/src/Win32/TimeHelpers.h
+	"../Config.h"
+
